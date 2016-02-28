@@ -11,3 +11,5 @@ This is a library containing all the scripts that I refer to in my video tutoria
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=zhAn2fl0_A8
 " target="_blank"><img src="http://img.youtube.com/vi/zhAn2fl0_A8/0.jpg" 
 alt="PROGRESSIVE ENHANCEMENT V.S. GRACEFUL DEGRADATION" width="240" height="180" border="10" /></a>
+
+*Video Editing and Graphic Creation credit goes to my brother, <a href="http://jmag.netlify.com">Jim Maguina</a>, who is a professional video editor.*
