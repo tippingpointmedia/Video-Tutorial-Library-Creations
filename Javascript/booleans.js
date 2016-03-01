@@ -2,14 +2,14 @@ console.log(5 > 1)
 
 console.log(5 < 1)
 
-// false
+// false due to Unicode standard - uppercase letters are always "less than" lowercase ones
 "z" < "a"
 
 "Z" < "z"
 
 "a" > "A"
 
-//comparison operators
+//Comparison operators
 >= (greater than or equal to)
 <= (less than or equal to)
 == (equal to)
@@ -20,7 +20,7 @@ console.log("A" != "a")
 
 console.log("A" == "A")
 
-//logical operators
+//Logical operators
 && logical and
 || logical or
 ! logical not
