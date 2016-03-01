@@ -1,15 +1,9 @@
+//Comparison operators
 console.log(5 > 1)
 
 console.log(5 < 1)
 
-// false due to Unicode standard - uppercase letters are always "less than" lowercase ones
-"z" < "a"
 
-"Z" < "z"
-
-"a" > "A"
-
-//Comparison operators
 >= (greater than or equal to)
 <= (less than or equal to)
 == (equal to)
@@ -20,6 +14,13 @@ console.log("A" != "a")
 
 console.log("A" == "A")
 
+// false due to Unicode standard - uppercase letters are always "less than" lowercase ones
+"z" < "a"
+
+"Z" < "z"
+
+"a" > "A"
+
 //Logical operators
 && logical and
 || logical or
@@ -29,10 +30,12 @@ console.log(true && true)
 
 console.log(false || false)
 
+// Short-circuit evaluation
+// || - evaluates left side for TRUE, otherwie will return value on the right
+// &&  - evaluates left side for FALSE, otherwise will return value on the right
+console.log(true || "A")
 
-console.log(true || A)
-
-console.log(false && A)
+console.log(false && "A")
 
 
 
@@ -42,10 +45,6 @@ console.log(typeof NaN)
 
 console.log(NaN == NaN)
 
-
-console.log(true || A)
-
-console.log(false && A)
 
 
 console.log("b" && "B")
