@@ -1,4 +1,4 @@
-//Comparison operators
+// Comparison operators
 console.log(5 > 1)
 
 console.log(5 < 1)
@@ -9,12 +9,12 @@ console.log(5 < 1)
 == (equal to)
 != (not equal to)
 
-//here the outcome is rather easy to predict
+// Here the outcome is rather easy to predict
 console.log("A" != "a")
 
 console.log("A" == "A")
 
-// false due to Unicode standard - uppercase letters are always "less than" lowercase ones
+// False due to Unicode standard - uppercase letters are always "less than" lowercase ones
 "z" < "a"
 
 "Z" < "z"
@@ -31,7 +31,7 @@ console.log(true && true)
 console.log(false || false)
 
 // Short-circuit evaluation
-// || - evaluates left side for TRUE, otherwie will return value on the right
+// || - evaluates left side for TRUE, otherwise will return value on the right
 // &&  - evaluates left side for FALSE, otherwise will return value on the right
 console.log(true || "A")
 
