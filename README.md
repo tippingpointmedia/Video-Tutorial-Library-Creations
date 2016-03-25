@@ -17,4 +17,4 @@ alt="JavaScript Tutorial - Numbers Data Type" width="240" height="180" border="1
 
 
 
-*Video Editing and Graphic Creation credit goes to my brother, <a href="http://jmag.netlify.com">Jim Maguina</a>, who is a professional video editor.*
+*Video Editing and Graphic Creation credit goes to my brother, <a href="http://www.jimmaguina.com">Jim Maguina</a>, who is a professional video editor.*
