@@ -1,5 +1,5 @@
 // Functions are data types that represents programs wrapped in values.
-functionName(argumrnt1, argument2)
+functionName(argument1, argument2)
 
 //These function calls are known as expressions and may produce a value or execute something
 alert("This is a function")
