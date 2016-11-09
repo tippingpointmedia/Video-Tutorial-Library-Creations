@@ -1,18 +1,25 @@
 //Objects are data scructures with key value pairs
-var a = {}; //variable a where we are storing an object literal aka an empty object
+var test = {}; //variable test where we are storing an object literal aka an empty object
 
 //Dot notation - the left of the dot is an object, to the right is the property
-//Dot notation creates values into strings as a data type and can only be used to assign strings
+//** Dot notation creates values into strings as a data type and can only be used to assign strings **
 var fruit = {};
-fruit.basket = "apples"; //assigning a property with dot notation
-fruit.basket; //access with dot notation
+fruit.basket = "apples"; //ASSIGN a property with dot notation
+fruit.basket; //ACCESS a property with dot notation
 
-var cart = fruit.basket;
-cart; //"apples"
+var cart = fruit.basket; //STORE a property
+cart; //outputs to "apples"
 
 fruit.basket = "oranges"
-cart; //"apples"
+cart; //outputs to "apples"
 
-fruit.random; //output at undefined
+fruit.random; //outputs as undefined
 
-//Bracket notation -  
+//Bracket notation - similar to dot notation except it has brackets
+//** Bracket notation can store more than strings. They include expressions, integers, special characters, variables, and numbers **
+var fruit = {};
+fruit["basket"] = "apples"; //ASSIGN a property with bracket notation
+fruit.basket; //ACCESS a property with bracket notation
+
+var cart = fruit["basket"]; //STORE a property
+cart;
