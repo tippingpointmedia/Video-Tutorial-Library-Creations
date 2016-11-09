@@ -5,12 +5,13 @@ var test = {}; //variable test where we are storing an object literal aka an emp
 //** Dot notation creates values into strings as a data type and can only be used to assign strings **
 var fruit = {};
 fruit.basket = "apples"; //ASSIGN a property with dot notation
+
 fruit.basket; //ACCESS a property with dot notation
 
-var cart = fruit.basket; //STORE a property
+var cart = fruit.basket; //STORE a property with bracket notation
 cart; //outputs to "apples"
 
-fruit.basket = "oranges"
+fruit.basket = "oranges";
 cart; //outputs to "apples"
 
 fruit.random; //outputs as undefined
@@ -19,7 +20,8 @@ fruit.random; //outputs as undefined
 //** Bracket notation can store more than strings. They include expressions, integers, special characters, variables, and numbers **
 var fruit = {};
 fruit["basket"] = "apples"; //ASSIGN a property with bracket notation
+
 fruit.basket; //ACCESS a property with bracket notation
 
-var cart = fruit["basket"]; //STORE a property
+var cart = fruit["basket"]; //STORE a property with bracket notation
 cart;
