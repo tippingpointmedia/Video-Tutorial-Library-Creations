@@ -1,5 +1,5 @@
-//Objects are data scructures with key value pairs
-var test = {}; //variable test where we are storing an object literal aka an empty object
+//Objects are data structures with key value pairs
+var test = {}; //variable named test is where we are storing an object literal, aka an empty object
 
 //Dot notation - the left of the dot is an object, to the right is the property
 //** Dot notation creates values into strings as a data type and can only be used to assign strings **
@@ -14,7 +14,6 @@ cart; //outputs to "apples"
 fruit.basket = "oranges";
 cart; //outputs to "apples"
 
-fruit.random; //outputs as undefined
 
 //Bracket notation - similar to dot notation except it has brackets
 //** Bracket notation can store more than strings. They include expressions, integers, special characters, variables, and numbers **
